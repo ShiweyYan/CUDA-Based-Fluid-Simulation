@@ -1,0 +1,198 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Fluid">
+      <UniqueIdentifier>{51eab123-3eb2-4692-acef-c207784aa8e5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DX">
+      <UniqueIdentifier>{ac567016-8607-4c6b-85da-0010c2ac7c9f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Model">
+      <UniqueIdentifier>{fbca4e96-863f-4b59-b48c-551f36a621ec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Input">
+      <UniqueIdentifier>{11d207b4-17c2-4ec0-933f-4775e2ae330a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Input\Controler">
+      <UniqueIdentifier>{86f8062b-3914-4603-97d1-de3a91a43222}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Input\Mouse">
+      <UniqueIdentifier>{43e3fc7d-3278-4eed-b6e9-8b80112f0c57}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Input\Keyboard">
+      <UniqueIdentifier>{c726a7a6-d928-4543-87a7-c991794ed693}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shader">
+      <UniqueIdentifier>{c3dad255-13d8-4ee4-9908-17f7faa15e9b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Camera">
+      <UniqueIdentifier>{76177934-d4b9-40ec-951e-cb9e74d144fb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="App&amp;Window">
+      <UniqueIdentifier>{2de5cc52-8b5e-427e-a190-9b74a3f9186d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Light">
+      <UniqueIdentifier>{df26fa57-2c3a-411e-860a-f0b285d33634}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Texture">
+      <UniqueIdentifier>{0c9534b3-8778-46d1-9a29-4c5c6e56c5e0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Effect">
+      <UniqueIdentifier>{44ac0b6c-1a3b-4c9d-9877-5f59708276a2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Timer">
+      <UniqueIdentifier>{a86d6425-cb3e-40a3-b833-15e5257026a0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Graphic">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Graphic.h">
+      <Filter>Graphic</Filter>
+    </ClInclude>
+    <ClInclude Include="PartitionGrid.h">
+      <Filter>Fluid</Filter>
+    </ClInclude>
+    <ClInclude Include="Point.h">
+      <Filter>Fluid</Filter>
+    </ClInclude>
+    <ClInclude Include="D3D.h">
+      <Filter>DX</Filter>
+    </ClInclude>
+    <ClInclude Include="DXHelp.h">
+      <Filter>DX</Filter>
+    </ClInclude>
+    <ClInclude Include="Model.h">
+      <Filter>Model</Filter>
+    </ClInclude>
+    <ClInclude Include="GeometryGens.h">
+      <Filter>Model</Filter>
+    </ClInclude>
+    <ClInclude Include="InputLayer.h">
+      <Filter>Input</Filter>
+    </ClInclude>
+    <ClInclude Include="Controler.h">
+      <Filter>Input\Controler</Filter>
+    </ClInclude>
+    <ClInclude Include="Keyboard.h">
+      <Filter>Input\Keyboard</Filter>
+    </ClInclude>
+    <ClInclude Include="Mouse.h">
+      <Filter>Input\Mouse</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="MyApp.h">
+      <Filter>App&amp;Window</Filter>
+    </ClInclude>
+    <ClInclude Include="Window.h">
+      <Filter>App&amp;Window</Filter>
+    </ClInclude>
+    <ClInclude Include="Light.h">
+      <Filter>Light</Filter>
+    </ClInclude>
+    <ClInclude Include="Texture.h">
+      <Filter>Texture</Filter>
+    </ClInclude>
+    <ClInclude Include="Effect.h">
+      <Filter>Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="Timer.h">
+      <Filter>Timer</Filter>
+    </ClInclude>
+    <ClInclude Include="NeighborTable.h">
+      <Filter>Fluid</Filter>
+    </ClInclude>
+    <ClInclude Include="SphMath.h">
+      <Filter>Fluid</Filter>
+    </ClInclude>
+    <ClInclude Include="SphSystem.h">
+      <Filter>Fluid</Filter>
+    </ClInclude>
+    <ClInclude Include="MyMath.h">
+      <Filter>Fluid</Filter>
+    </ClInclude>
+    <ClInclude Include="MyVector3.h">
+      <Filter>Fluid</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="PartitionGridcpp.cpp">
+      <Filter>Fluid</Filter>
+    </ClCompile>
+    <ClCompile Include="D3D.cpp">
+      <Filter>DX</Filter>
+    </ClCompile>
+    <ClCompile Include="GeometryGens.cpp">
+      <Filter>Model</Filter>
+    </ClCompile>
+    <ClCompile Include="Model.cpp">
+      <Filter>Model</Filter>
+    </ClCompile>
+    <ClCompile Include="InputLayer.cpp">
+      <Filter>Input</Filter>
+    </ClCompile>
+    <ClCompile Include="Controler.cpp">
+      <Filter>Input\Controler</Filter>
+    </ClCompile>
+    <ClCompile Include="Keyboard.cpp">
+      <Filter>Input\Keyboard</Filter>
+    </ClCompile>
+    <ClCompile Include="Mouse.cpp">
+      <Filter>Input\Mouse</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="MyApp.cpp">
+      <Filter>App&amp;Window</Filter>
+    </ClCompile>
+    <ClCompile Include="Window.cpp">
+      <Filter>App&amp;Window</Filter>
+    </ClCompile>
+    <ClCompile Include="Texture.cpp">
+      <Filter>Texture</Filter>
+    </ClCompile>
+    <ClCompile Include="Effect.cpp">
+      <Filter>Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="Timer.cpp">
+      <Filter>Timer</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphic.cpp">
+      <Filter>Graphic</Filter>
+    </ClCompile>
+    <ClCompile Include="NeighborTable.cpp">
+      <Filter>Fluid</Filter>
+    </ClCompile>
+    <ClCompile Include="SphSystem.cpp">
+      <Filter>Fluid</Filter>
+    </ClCompile>
+    <ClCompile Include="Point.cpp">
+      <Filter>Fluid</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Light.fx">
+      <Filter>Shader</Filter>
+    </None>
+    <None Include="DepthMapEffect.fx">
+      <Filter>Shader</Filter>
+    </None>
+    <None Include="baseEffect.fx">
+      <Filter>Shader</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <CudaCompile Include="cuda_sph.cu">
+      <Filter>Fluid</Filter>
+    </CudaCompile>
+  </ItemGroup>
+</Project>
